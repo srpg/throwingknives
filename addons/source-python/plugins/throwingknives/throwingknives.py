@@ -40,7 +40,6 @@ class KnifePlayer(Player):
 		self.knives = SPAWN_KNIVES.get_int()
 
 	def throw_knife(self):
-		global current_knife
 		current_knives = self.knives
 
 		if current_knives > 0:
